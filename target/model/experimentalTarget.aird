@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_IZNHAJ1kEeen8-hTMC6Slw" selectedViews="_IagHgJ1kEeen8-hTMC6Slw" version="11.0.1.201608181000">
+  <semanticResources>experimentalTarget.ecore</semanticResources>
+  <semanticResources>experimentalTarget.genmodel</semanticResources>
+  <ownedViews xmi:type="viewpoint:DView" xmi:id="_IagHgJ1kEeen8-hTMC6Slw">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']"/>
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_Ia5wIJ1kEeen8-hTMC6Slw" name="experimentalTarget">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_Ia5wIZ1kEeen8-hTMC6Slw" source="DANNOTATION_CUSTOMIZATION_KEY">
+        <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_Ia5wIp1kEeen8-hTMC6Slw"/>
+      </ownedAnnotationEntries>
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_Ia6XMJ1kEeen8-hTMC6Slw" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_Ia6XMZ1kEeen8-hTMC6Slw" type="Sirius" element="_Ia5wIJ1kEeen8-hTMC6Slw" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_Ia6XM51kEeen8-hTMC6Slw" type="2001" element="_Ia5wI51kEeen8-hTMC6Slw">
+            <children xmi:type="notation:Node" xmi:id="_Ia6-QJ1kEeen8-hTMC6Slw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Ia6-QZ1kEeen8-hTMC6Slw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Ia_PsJ1kEeen8-hTMC6Slw" type="3005" element="_Ia5wJJ1kEeen8-hTMC6Slw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_Ia_PsZ1kEeen8-hTMC6Slw" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ia_Psp1kEeen8-hTMC6Slw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Ia6XNJ1kEeen8-hTMC6Slw" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ia6XNZ1kEeen8-hTMC6Slw" width="640" height="85"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_Ia6XMp1kEeen8-hTMC6Slw"/>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Ia5wI51kEeen8-hTMC6Slw" width="-1" height="-1">
+        <target xmi:type="ecore:EPackage" href="experimentalTarget.ecore#/"/>
+        <semanticElements xmi:type="ecore:EPackage" href="experimentalTarget.ecore#/"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_Ia5wJJ1kEeen8-hTMC6Slw" showIcon="false" labelPosition="node" workspacePath="/org.eclipse.emf.ecoretools.design/icons/full/back/empty.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@nodeMappings[name='Empty%20Diagram']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@nodeMappings[name='Empty%20Diagram']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_Ia5wJZ1kEeen8-hTMC6Slw"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer"/>
+      <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']"/>
+      <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Validation']"/>
+      <target xmi:type="ecore:EPackage" href="experimentalTarget.ecore#/"/>
+    </ownedRepresentations>
+  </ownedViews>
+</viewpoint:DAnalysis>

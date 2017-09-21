@@ -1,0 +1,15 @@
+package experimental.partial
+
+import "http://www.example.org/experimentalSource"
+import "http://www.example.org/experimentalTarget"
+import "http://www.example.org/experimentalCorrespondence"
+
+pattern source(parent:SourceEntry, entry:SourceEntry, correspondence:Correspondence) {
+	SourceEntry.children(parent, entry);
+	Correspondence.source(correspondence, parent);
+}
+
+pattern target(parent:TargetEntry, entry:TargetEntry, correspondence:Correspondence) {
+	TargetEntry.children(parent, entry);
+	Correspondence.target(correspondence, parent);
+}

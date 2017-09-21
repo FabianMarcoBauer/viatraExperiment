@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><plugin>
+  <extension id="experimental.complete.CompleteQueries" point="org.eclipse.viatra.query.runtime.queryspecification">
+    <group group="org.eclipse.viatra.query.runtime.extensibility.SingletonExtensionFactory:experimental.complete.CompleteQueries" id="experimental.complete.CompleteQueries">
+      <query-specification fqn="experimental.complete.source"/>
+      <query-specification fqn="experimental.complete.target"/>
+      <query-specification fqn="experimental.complete.complete"/>
+    </group>
+  </extension>
+</plugin>

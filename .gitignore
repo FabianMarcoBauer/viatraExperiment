@@ -1,0 +1,10 @@
+bin/
+src-gen/
+xtend-gen/
+instances/
+.project
+.classpath
+.settings
+correspondence/src/
+source/src/
+target/src/

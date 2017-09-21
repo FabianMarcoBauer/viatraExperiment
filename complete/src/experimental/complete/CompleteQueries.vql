@@ -1,0 +1,22 @@
+package experimental.complete
+
+import "http://www.example.org/experimentalSource"
+import "http://www.example.org/experimentalTarget"
+import "http://www.example.org/experimentalCorrespondence"
+
+pattern source(parent:SourceEntry, entry:SourceEntry, correspondence:Correspondence) {
+	SourceEntry.children(parent, entry);
+	Correspondence.source(correspondence, parent);
+}
+
+pattern target(parent:TargetEntry, entry:TargetEntry, correspondence:Correspondence) {
+	TargetEntry.children(parent, entry);
+	Correspondence.target(correspondence, parent);
+}
+
+pattern complete(sourceParent:SourceEntry, sourceEntry:SourceEntry, targetParent:TargetEntry, targetEntry:TargetEntry, correspondence:Correspondence, identifier: java^java.lang.Integer) {
+	find source(sourceParent, sourceEntry, correspondence);
+	find target(targetParent, targetEntry, correspondence);
+	SourceEntry.identifier(sourceEntry, identifier);
+	TargetEntry.identifier(targetEntry, identifier);
+}

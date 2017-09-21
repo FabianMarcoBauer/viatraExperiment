@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated experimentalCorrespondence -->
+      <package
+            uri="http://www.example.org/experimentalCorrespondence"
+            class="experimentalCorrespondence.ExperimentalCorrespondencePackage"
+            genModel="model/experimentalCorrespondence.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated experimentalCorrespondence -->
+      <package
+            uri="http://www.example.org/experimentalSource"
+            class="experimentalSource.ExperimentalSourcePackage"
+            genModel="model/experimentalCorrespondence.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated experimentalCorrespondence -->
+      <package
+            uri="http://www.example.org/experimentalTarget"
+            class="experimentalTarget.ExperimentalTargetPackage"
+            genModel="model/experimentalCorrespondence.genmodel"/>
+   </extension>
+
+</plugin>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="experimentalCorrespondence" nsURI="http://www.example.org/experimentalCorrespondence"
+    nsPrefix="experimentalCorrespondence">
+  <eClassifiers xsi:type="ecore:EClass" name="Correspondence">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="source" lowerBound="1"
+        eType="ecore:EClass ../../ExperimentalSource/model/experimentalSource.ecore#//SourceEntry"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="target" lowerBound="1"
+        eType="ecore:EClass ../../ExperimentalTarget/model/experimentalTarget.ecore#//TargetEntry"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TransformationModel">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="source" eType="ecore:EClass ../../ExperimentalSource/model/experimentalSource.ecore#//SourceEntry"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="target" eType="ecore:EClass ../../ExperimentalTarget/model/experimentalTarget.ecore#//TargetEntry"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="corr" upperBound="-1" eType="#//Correspondence"
+        containment="true"/>
+  </eClassifiers>
+</ecore:EPackage>
